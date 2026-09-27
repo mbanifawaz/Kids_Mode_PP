@@ -1,7 +1,7 @@
 ## **Privacy Policy for Kids Mode**
 
 **Last Updated: 27/09/2026**
-**App Version: 1.1.1**
+**App Version: 1.1.2**
 **Package: com.mbf.kidsmode**
 **Developer: Munes Bani Fawaz (MrGiveItAwayTPK)**
 
@@ -97,7 +97,7 @@ Uninstalling Kids Mode deletes all of it.
 
 ### **Third-Party Services**
 
-- **Google ML Kit (on-device face detection)**: used only for the optional camera too-close warning. It runs on your phone. Kids Mode sends no images to Google or anyone else.
+- **Google ML Kit (on-device face detection)**: used only for the optional camera too-close warning. It runs on your phone. Kids Mode sends no images to Google or anyone else, and ML Kit's usage-statistics uploader is switched off in the app, so ML Kit sends nothing either.
 - **libadb-android (open source)**: used only for the optional full lock, to talk to your own phone's Wireless debugging. It makes no connection outside your phone.
 
 Kids Mode contains no advertising or analytics SDKs.
@@ -149,7 +149,7 @@ Kids Mode is used by parents to supervise their own children on their own phone.
 We may update this Privacy Policy from time to time to reflect changes in app features or legal requirements. Any changes will be reflected in this document with an updated "Last Updated" date.
 
 **Version History:**
-- **1.1.1** (27/09/2026): Initial published version.
+- **1.1.2** (27/09/2026): Initial published version. ML Kit's usage-statistics uploader is switched off, so nothing at all leaves the phone.
 
 ---
 
