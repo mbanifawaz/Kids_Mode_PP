@@ -165,6 +165,7 @@ If you have any questions, concerns or requests regarding this Privacy Policy or
 
 - **Developer**: Munes Bani Fawaz (MrGiveItAwayTPK)
 - **Email**: m.banifawaz@outlook.com
+- **Phone**: +962789336602
 
 ---
 
