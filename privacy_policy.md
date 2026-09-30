@@ -1,7 +1,7 @@
 ## **Privacy Policy for Kids Mode**
 
-**Last Updated: 27/09/2026**
-**App Version: 1.1.2**
+**Last Updated: 30/09/2026**
+**App Version: 1.1.3**
 **Package: com.mbf.kidsmode**
 **Developer: Munes Bani Fawaz (MrGiveItAwayTPK)**
 
@@ -41,7 +41,7 @@ Kids Mode only uses a permission for the feature that needs it. Optional feature
 
 2. **Default Home App (Home role)**
    - **Purpose**: So the Home button or swipe opens the Kids Mode screen while Kids Mode is on.
-   - **Usage**: While Kids Mode is off, Home is passed straight to your normal home screen app.
+   - **Usage**: Kids Mode is the home app only while it is on. When you leave Kids Mode, your normal home screen app becomes the home app again.
 
 3. **Device Administrator (uninstall protection)**
    - **Purpose**: Stops a child from uninstalling Kids Mode.
@@ -149,6 +149,7 @@ Kids Mode is used by parents to supervise their own children on their own phone.
 We may update this Privacy Policy from time to time to reflect changes in app features or legal requirements. Any changes will be reflected in this document with an updated "Last Updated" date.
 
 **Version History:**
+- **1.1.3** (30/09/2026): Kids Mode is now the home app only while it is on; leaving Kids Mode gives Home back to your normal home screen app. No change to what data is used.
 - **1.1.2** (27/09/2026): Initial published version. ML Kit's usage-statistics uploader is switched off, so nothing at all leaves the phone.
 
 ---
