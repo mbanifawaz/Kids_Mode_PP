@@ -1,7 +1,7 @@
 ## **Privacy Policy for Kids Mode**
 
-**Last Updated: 30/09/2026**
-**App Version: 1.1.3**
+**Last Updated: 02/10/2026**
+**App Version: 1.1.4**
 **Package: com.mbf.kidsmode**
 **Developer: Munes Bani Fawaz (MrGiveItAwayTPK)**
 
@@ -66,6 +66,7 @@ Kids Mode only uses a permission for the feature that needs it. Optional feature
 8. **`INTERNET`, `ACCESS_NETWORK_STATE`, `ACCESS_WIFI_STATE`, `CHANGE_WIFI_MULTICAST_STATE`, `WRITE_SECURE_SETTINGS`**
    - **Purpose**: The optional **full lock** switches off the notification bar, quick settings, recent apps and power-button shortcuts at system level.
    - **Usage**: If you choose it and pair it once (Settings → Developer options → Wireless debugging → Pair device with pairing code), Kids Mode connects to your **own phone's** Wireless debugging over Wi-Fi. This connection stays **inside your phone**: it is used only to run the system commands the full lock needs (such as switching the notification bar off and back on, and giving Kids Mode the `WRITE_SECURE_SETTINGS` and phone permissions it needs). `WRITE_SECURE_SETTINGS` is used only to switch Wireless debugging and Kids Mode's own protection service back on, for example after a restart.
+   - So the full lock also works without Wi-Fi, Kids Mode then starts a small helper on your phone that keeps these system commands available until the phone restarts. The helper only accepts connections from inside the phone (127.0.0.1) that carry a secret known only to Kids Mode, only runs the commands listed above, and never sends anything off the phone.
    - Kids Mode saves your original power-button settings before changing them and restores them when Kids Mode ends.
    - You can skip the full lock; Kids Mode then works without it.
 
@@ -149,6 +150,7 @@ Kids Mode is used by parents to supervise their own children on their own phone.
 We may update this Privacy Policy from time to time to reflect changes in app features or legal requirements. Any changes will be reflected in this document with an updated "Last Updated" date.
 
 **Version History:**
+- **1.1.4** (02/10/2026): A small on-phone helper keeps the optional full lock working without Wi-Fi until the phone restarts. No change to what data is used.
 - **1.1.3** (30/09/2026): Kids Mode is now the home app only while it is on; leaving Kids Mode gives Home back to your normal home screen app. No change to what data is used.
 - **1.1.2** (27/09/2026): Initial published version. ML Kit's usage-statistics uploader is switched off, so nothing at all leaves the phone.
 
