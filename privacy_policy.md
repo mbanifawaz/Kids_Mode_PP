@@ -1,6 +1,6 @@
 ## **Privacy Policy for Kids Mode**
 
-**Last Updated: 02/10/2026**
+**Last Updated: 19/10/2026**
 **App Version: 1.1.4**
 **Package: com.mbf.kidsmode**
 **Developer: Munes Bani Fawaz (MrGiveItAwayTPK)**
@@ -90,9 +90,12 @@ All of this stays in the app's private storage on your phone:
 - Your **parent PIN**, stored only as a **one-way salted hash** (the PIN itself is never stored)
 - **App usage times** in Kids Mode (per app, per day, the last 14 days), shown only in the app's Activity page
 - The Wireless debugging pairing key (created by the app, used only to connect to your own phone)
+- A random secret that only the full-lock helper and Kids Mode know, so no other app can use the helper
 - Your original power-button settings, kept only until Kids Mode restores them
 
 Uninstalling Kids Mode deletes all of it.
+
+If you use the optional full lock, the helper also keeps a small diagnostic file on the phone (`/data/local/tmp/kidsmode_shell.log`) with only its own error messages, used to find out why it might not start on some phones. It contains no personal data and is never sent anywhere. Because it sits outside the app's storage, it can remain after uninstalling; it is removed by a factory reset, or with `adb shell rm /data/local/tmp/kidsmode_shell.log`.
 
 ---
 
@@ -133,7 +136,7 @@ English and Arabic.
 ### **Your Privacy Rights**
 
 - **Access**: Everything Kids Mode keeps is visible in the app
-- **Deletion**: Uninstall the app to delete all local data (turn off uninstall protection first: Unlock → "Allow uninstalling Kids Mode")
+- **Deletion**: Uninstall the app to delete all local data (turn off uninstall protection first: Unlock → "Allow uninstalling Kids Mode"). Only the full-lock helper's diagnostic file described above can remain
 - **Control**: Every permission can be turned off in Android Settings; optional features can be turned off in the app
 - **Portability**: No data is stored on external servers, so there is nothing to export
 
@@ -150,6 +153,7 @@ Kids Mode is used by parents to supervise their own children on their own phone.
 We may update this Privacy Policy from time to time to reflect changes in app features or legal requirements. Any changes will be reflected in this document with an updated "Last Updated" date.
 
 **Version History:**
+- **19/10/2026**: Listed the full-lock helper's secret and its diagnostic file under the data stored on your phone. No change to the app.
 - **1.1.4** (02/10/2026): A small on-phone helper keeps the optional full lock working without Wi-Fi until the phone restarts. No change to what data is used.
 - **1.1.3** (30/09/2026): Kids Mode is now the home app only while it is on; leaving Kids Mode gives Home back to your normal home screen app. No change to what data is used.
 - **1.1.2** (27/09/2026): Initial published version. ML Kit's usage-statistics uploader is switched off, so nothing at all leaves the phone.
